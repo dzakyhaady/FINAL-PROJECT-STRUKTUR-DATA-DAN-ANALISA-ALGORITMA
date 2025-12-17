@@ -62,6 +62,8 @@ Close Window    = Keluar program
 * Kompleksitas waktu: **O(n²)**
 * Mudah diimplementasikan
 * FPS turun drastis saat jumlah bola banyak
+![Gambar ini menunjukkan simulasi dengan metode bruteforce collision detection, di mana setiap bola dicek bertabrakan dengan seluruh bola lainnya pada setiap frame. Pendekatan ini sederhana dan mudah diimplementasikan, namun memiliki kompleksitas waktu O(n²) sehingga performa (FPS) akan menurun drastis ketika jumlah bola semakin banyak.](Assets/Bruteforce.gif)
+
 
 ###  Quadtree
 
@@ -69,6 +71,7 @@ Close Window    = Keluar program
 * Mengecek tabrakan hanya pada objek yang berdekatan
 * Kompleksitas mendekati **O(n log n)**
 * FPS jauh lebih stabil untuk objek besar
+![Gambar ini menampilkan simulasi menggunakan quadtree-based collision detection. Ruang simulasi dibagi secara hierarkis menjadi beberapa region sehingga pengecekan tabrakan hanya dilakukan pada objek-objek yang berada di area yang berdekatan. Metode ini jauh lebih efisien untuk jumlah bola yang besar dan mampu mempertahankan FPS yang lebih stabil dibandingkan metode bruteforce.](Assets/Quadtree.gif)
 
 ---
 
