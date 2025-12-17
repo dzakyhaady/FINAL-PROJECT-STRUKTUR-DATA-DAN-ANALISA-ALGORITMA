@@ -74,6 +74,3 @@ Close Window    = Keluar program
 
 
 
-## 📜 License
-
-This project is for educational purposes.
